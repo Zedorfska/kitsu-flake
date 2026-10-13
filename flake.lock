@@ -1,0 +1,95 @@
+{
+  "nodes": {
+    "flask-fs2-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1784206378,
+        "narHash": "sha256-bz0LIwgsE+rMDtn/2VI8wVSQi3OvaJjeBJ0b/9iLjj0=",
+        "owner": "cgwire",
+        "repo": "flask-fs2",
+        "rev": "1b98eaf78ef9b677d6959f71809ae74a04ae66de",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cgwire",
+        "repo": "flask-fs2",
+        "type": "github"
+      }
+    },
+    "gazu-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791817894,
+        "narHash": "sha256-6+zIKVJY9K49HP6exXxHchqcm3PF1P6yem1Zo3cb04o=",
+        "owner": "cgwire",
+        "repo": "gazu",
+        "rev": "7d4c4d185cddbe4d0db66214bfd4e6b3fbb35542",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cgwire",
+        "repo": "gazu",
+        "type": "github"
+      }
+    },
+    "kitsu-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791829678,
+        "narHash": "sha256-ufzvzEIho+FrNr+Nv1flTIXPDzrdWh+3Sc+F1pzWjM0=",
+        "owner": "cgwire",
+        "repo": "kitsu",
+        "rev": "c2eb10da454d6076d66e15508b779dd4b11a1fc5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cgwire",
+        "repo": "kitsu",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791734076,
+        "narHash": "sha256-i5qk1kLiit98rRbh1AXmWBNT9QXC/y4l5Wk/u5EdpDQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7fd4004d0511991fff3a0524856a9be09e28c5f0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flask-fs2-src": "flask-fs2-src",
+        "gazu-src": "gazu-src",
+        "kitsu-src": "kitsu-src",
+        "nixpkgs": "nixpkgs",
+        "zou-src": "zou-src"
+      }
+    },
+    "zou-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791828621,
+        "narHash": "sha256-Xhjw9xw1sUswRI80vjjAL3SHKDaftn8vpEwf7ckp6G4=",
+        "owner": "cgwire",
+        "repo": "zou",
+        "rev": "8027ab93ffc3216212090b483b83be1043756b1b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cgwire",
+        "repo": "zou",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
